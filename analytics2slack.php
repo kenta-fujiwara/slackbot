@@ -112,7 +112,7 @@ $ranking = getWeeklyRanking($analytics, $profile);
 $message = $report . "\n" . $ranking;
 
 // ポスト先ルームのURL
-$url = 'https://hooks.slack.com/services/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';
+$url = 'https://hooks.slack.com/services/xxxxxxxxxx/xxxxxxxxxx/xxxxxxxxxxxxxxxxxxxx';
 // メッセージをポスト
 $bot = new SlackBot();
 print_r($bot->post_message(new SlackBotInfo($url, $message)));
