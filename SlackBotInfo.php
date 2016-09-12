@@ -6,11 +6,11 @@
 class SlackBotInfo
 {
     /** ポスト先の部屋 */
-    public $channel = '#general';
+    public $channel = '#times_fujiken';
     /** botのお名前 */
-    public $username = 'my_bot';
+    public $username = 'fujiken_bot';
     /** botのアイコン */
-    public $icon_emoji = ':ghost:';
+    public $icon_emoji = ':robot_face:';
     /** ポストするメッセージ */
     protected $message = '';
     /** ポスト先チャネルのURL */
