@@ -10,7 +10,7 @@ if ($argc < 2) {
 $message = $argv[1];
 
 // ポスト先ルームのURL
-$url = 'https://hooks.slack.com/services/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';
+$url = 'https://hooks.slack.com/services/xxxxxxxxxx/xxxxxxxxxx/xxxxxxxxxxxxxxxxxxxxxxxx';
 // メッセージをポスト
 $bot = new SlackBot();
 print_r($bot->post_message(new SlackBotInfo($url, $message)));
